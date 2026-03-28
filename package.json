@@ -1,0 +1,31 @@
+{
+  "name": "@fraserelliott/fe-slate",
+  "version": "0.1.0",
+  "description": "A lightweight, reusable CSS theme foundation built around namespaced variables and atomic appearance classes.",
+  "keywords": [
+    "css",
+    "theme",
+    "design-system",
+    "dark-theme",
+    "utility-css",
+    "frontend"
+  ],
+  "license": "MIT",
+  "author": "Fraser Elliott",
+  "type": "module",
+  "files": [
+    "fe-slate.css",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "fe-slate.css",
+  "style": "fe-slate.css",
+  "sideEffects": [
+    "*.css"
+  ],
+  "exports": {
+    ".": {
+      "default": "./fe-slate.css"
+    }
+  }
+}

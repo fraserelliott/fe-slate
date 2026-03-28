@@ -1,0 +1,107 @@
+:root {
+  --fes-bg-primary: #0f172a;
+  --fes-bg-secondary: #1e293b;
+
+  --fes-btn-primary: #64748b;
+  --fes-btn-primary-hover: #475569;
+  --fes-btn-primary-active: #334155;
+  --fes-btn-primary-disabled: #475569;
+
+  --fes-text-primary: #f1f5f9;
+  --fes-text-secondary: #ffffff;
+  --fes-text-muted: #94a3b8;
+
+  --fes-dropdown-bg: #334155;
+
+  --fes-btn-danger: #f87171;
+  --fes-btn-danger-hover: #ef4444;
+  --fes-btn-danger-active: #dc2626;
+
+  --fes-accent: #3b82f6;
+
+  --fes-glass-border: 1px solid rgba(255, 255, 255, 0.05);
+
+  --fes-font-family-primary: Verdana, sans-serif;
+  --fes-font-family-secondary: Arial, sans-serif;
+
+  --fes-box-shadow-subtle:
+    0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Backgrounds */
+.fes-bg-primary {
+  background-color: var(--fes-bg-primary);
+}
+
+.fes-bg-secondary {
+  background-color: var(--fes-bg-secondary);
+}
+
+.fes-dropdown-bg {
+  background-color: var(--fes-dropdown-bg);
+}
+
+/* Text */
+.fes-text-primary {
+  color: var(--fes-text-primary);
+}
+
+.fes-text-secondary {
+  color: var(--fes-text-secondary);
+}
+
+.fes-text-muted {
+  color: var(--fes-text-muted);
+}
+
+/* Buttons */
+.fes-btn-primary {
+  background-color: var(--fes-btn-primary);
+}
+
+.fes-btn-primary:hover {
+  background-color: var(--fes-btn-primary-hover);
+}
+
+.fes-btn-primary:active {
+  background-color: var(--fes-btn-primary-active);
+}
+
+.fes-btn-primary:disabled {
+  background-color: var(--fes-btn-primary-disabled);
+}
+
+.fes-btn-danger {
+  background-color: var(--fes-btn-danger);
+}
+
+.fes-btn-danger:hover {
+  background-color: var(--fes-btn-danger-hover);
+}
+
+.fes-btn-danger:active {
+  background-color: var(--fes-btn-danger-active);
+}
+
+/* Accent */
+.fes-accent {
+  color: var(--fes-accent);
+}
+
+/* Borders / effects */
+.fes-glass-border {
+  border: var(--fes-glass-border);
+}
+
+.fes-shadow-subtle {
+  box-shadow: var(--fes-box-shadow-subtle);
+}
+
+/* Typography */
+.fes-font-primary {
+  font-family: var(--fes-font-family-primary);
+}
+
+.fes-font-secondary {
+  font-family: var(--fes-font-family-secondary);
+}
