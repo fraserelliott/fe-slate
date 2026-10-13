@@ -1,6 +1,6 @@
 {
   "name": "@fraserelliott/fe-slate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A lightweight, reusable CSS theme foundation built around namespaced variables and atomic appearance classes.",
   "keywords": [
     "css",
@@ -15,6 +15,7 @@
   "type": "module",
   "files": [
     "fe-slate.css",
+    "feSlate.js",
     "README.md",
     "LICENSE"
   ],
@@ -24,8 +25,10 @@
     "*.css"
   ],
   "exports": {
-    ".": {
-      "default": "./fe-slate.css"
-    }
+    ".": "./feSlate.js",
+    "./fe-slate.css": "./fe-slate.css"
+  },
+  "dependencies": {
+    "@fraserelliott/fe-utilities": "^0.3.1"
   }
 }

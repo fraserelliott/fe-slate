@@ -16,6 +16,12 @@
   --fes-btn-danger: #f87171;
   --fes-btn-danger-hover: #ef4444;
   --fes-btn-danger-active: #dc2626;
+  --fes-btn-danger-disabled: #7f454a;
+
+  --fes-btn-confirm: #15803d;
+  --fes-btn-confirm-hover: #16a34a;
+  --fes-btn-confirm-active: #166534;
+  --fes-btn-confirm-disabled: #365a49;
 
   --fes-accent: #3b82f6;
 
@@ -72,6 +78,7 @@
 }
 
 .fes-btn-danger {
+  color: var(--fes-text-secondary);
   background-color: var(--fes-btn-danger);
 }
 
@@ -81,6 +88,27 @@
 
 .fes-btn-danger:active {
   background-color: var(--fes-btn-danger-active);
+}
+
+.fes-btn-danger:disabled {
+  background-color: var(--fes-btn-danger-disabled);
+}
+
+.fes-btn-confirm {
+  color: var(--fes-text-secondary);
+  background-color: var(--fes-btn-confirm);
+}
+
+.fes-btn-confirm:hover {
+  background-color: var(--fes-btn-confirm-hover);
+}
+
+.fes-btn-confirm:active {
+  background-color: var(--fes-btn-confirm-active);
+}
+
+.fes-btn-confirm:disabled {
+  background-color: var(--fes-btn-confirm-disabled);
 }
 
 /* Accent */
@@ -104,4 +132,10 @@
 
 .fes-font-secondary {
   font-family: var(--fes-font-family-secondary);
+}
+
+.fes-app {
+  background-color: var(--fes-bg-primary, #0f172a);
+  color: var(--fes-text-primary, #f1f5f9);
+  font-family: var(--fes-font-family-primary, Verdana, sans-serif);
 }
