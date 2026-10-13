@@ -1,7 +1,7 @@
 {
   "name": "@fraserelliott/fe-slate",
-  "version": "0.2.0",
-  "description": "A lightweight, reusable CSS theme foundation built around namespaced variables and atomic appearance classes.",
+  "version": "0.2.1",
+  "description": "A lightweight, reusable dark theme built around namespaced CSS variables, appearance classes, and composable JavaScript style tokens.",
   "keywords": [
     "css",
     "theme",
@@ -29,6 +29,6 @@
     "./fe-slate.css": "./fe-slate.css"
   },
   "dependencies": {
-    "@fraserelliott/fe-utilities": "^0.3.1"
+    "@fraserelliott/fe-utilities": "^0.4.0"
   }
 }
